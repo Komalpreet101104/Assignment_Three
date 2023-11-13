@@ -1,0 +1,264 @@
+/* General styling for the body */
+body {
+  font-family: 'Montserrat', serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('CA2.jpg');
+  background: url('CA2.jpg')(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('CA2.jpg') ;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* Styling for the navigation bar */
+
+nav {
+  background-color: #DCA18F;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+nav li {
+  display: inline-block;
+
+}
+
+/* for the logo in the navigation bar  */
+
+.logo {
+  float: left; }
+
+.logo img {
+  height: 50px; 
+  width: auto; 
+}
+
+
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: flex-start; 
+align-items: center;
+background-color: #DCA18F; 
+padding: 10px; 
+}
+
+nav li.logo {
+margin-right: auto; 
+}
+
+nav a {
+text-decoration: none;
+color: white; 
+transition: 0.2s ease; 
+font-family: 'Montserrat', serif; 
+font-weight: 800;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+font-size: 22px; 
+margin: 0 15px; 
+}
+
+/* Hover effect for navigation links */
+
+nav a:hover {
+  background-color: #ef5807;
+  color: black;
+  padding: 10px ;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.8);
+}
+
+nav img {
+  height: 50px; 
+}
+/* Styling for overlay section */
+
+.overlay {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay h1 {
+  font-size: 90px;
+  color: rgb(242, 235, 235);
+  font-family: 'Crimson Pro', serif;
+  
+}
+.overlay h2{
+font-family: 'Shadows Into Light', cursive;
+letter-spacing: 2px;
+}
+/* Styling for the about section */
+
+.about {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #DCA18F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content_top-right p{
+  font-weight: 800;
+}
+
+/* Styling for the cover section */
+
+.cover {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: center;
+  gap: 20px;
+  background-color: #ebede8;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('CA2.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding-top: 40px;
+
+}
+
+/* Styling for individual boxes in the cover section */
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: #f4f5f3;
+  box-decoration-break: slice; 
+  background-color:#371300;   
+}
+
+.box1 h2, .box2 h2, .box3 h2{
+  color: #ba9274;
+}
+
+/* Styling for text content in the boxes */
+
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p, .box6 p{
+  color: rgba(249, 247, 247, 0.926);
+  font-weight: 600;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styling for the "Add to Cart" button */
+
+.add-to-cart{
+  color: rgb(250, 245, 245);
+  font-size: large;
+  border-radius: 8px;
+  background-color: #e09b08;
+  padding: 12px;
+  transition: 0.5s all ease;
+}
+
+.add-to-cart:hover{
+  background-color: #cc4e00;
+  transform: scale(1.1);
+  
+}
+/* Styling for the products section */
+
+.products{
+  font-size: 40px;
+  color:rgba(23, 22, 22, 0.962);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+}
+/* Styling for the footer section */
+
+
+.footer {
+  background-color:#DCA18F;
+  color: #050505;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  width: 100px; }
+
+.footer-info p {
+  margin: 5px 0;
+  font-weight: 600;
+}
+.footer-info p:hover{
+  color: #f4f5f3;
+}
+
+.support {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+}
+
+
+/* Styling for the rectangle section */
+
+.rectangle {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+
+.blue {
+  background-color:#E2C9CF;
+}
+
+/* Styling for the primary button */
+
+
+.btnone{
+  background-color: #3f0d5c;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  font-display: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  font-size: 14px;
+  padding: 10px 20px;
+}
+.btnone:hover{
+  background-color: #556b2f;
+    transform: scale(1.1);
+}
+
+.contact{
+
+  color: rgb(250, 245, 245);
+  font-size: large; 
+  background-color: #3f0d5c;
+  padding: 15px;
+  transition: 0.5s all ease;
+  text-decoration: none;
+
+}
+
+.contact:hover{
+  background-color: #cc4e00;
+  transform: scale(1.2);  
+
+
+}
